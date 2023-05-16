@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Offered</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <div class="box-img">
+                <div class="img">
+                    <a href="index.html"><img src="stratford logo 1.png" alt="Stratford Logo"></a>
+                </div>
+            </div>
+            <div class="box-text">
+                <div class="text-student">
+                    <h1>STRATFORD INTERNATIONAL SCHOOL</h1>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </label>
+        <nav class="navigation-box" id="navigation-box">
+            <div class="center-box">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="icons\icons8-home-50.png" height="17px"> Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#about"><img src="icons\icons8-about-50.png" height="17px"> About</a>
+                        <ul>
+                            <li><a href="index.html#history">History School</a></li>
+                            <li><a href="index.html#vision-core-values-mission">Vision & Mission</a></li>
+                            <li onclick="coreValue()"><a href="index.html#vision-core-values-mission">Core Values</a></li>
+                            <li><a href="index.html#hymn">School Hymn</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="itdepartment.html"><img src="icons\icons8-technology-32.png" height="17px"> School Departments</a>
+                        <ul>
+                            <li><a href="itdepartment.html#it-department">Computer Lab.</a></li>
+                            <li><a href="itdepartment.html#students">Students</a></li>
+                            <li><a href="itdepartment.html#building-facilities">Building/Facilities</a></li>
+                            <li><a href="itdepartment.html#uniforms">Uniforms</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="courses.html"><img src="icons\icons8-contact-us-50.png" height="17px"> Courses Offered</a>
+                        <ul>
+                                <li><a href="#education">College of Education</a></li>
+                                <li><a href="#business">College of Business</a></li>
+                                <li><a href="#accountancy">College of Accountancy</a></li>
+                                <li><a href="#arts-and-sciences">College of Arts and Sciences</a></li>
+                                <li><a href="#information-technology">College of Information Technology</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="registrationform.html" target="_blank"><img src="icons\icons8-registration-50.png" height="17px"> Registration Form</a>
+                    </li>
+                    <li>
+                        <a href="profile.html"><img src="icons\icons8-user-50.png" height="17px"> Profile</a>
+                        <ul>
+                            <li><a href="profile.html#portfolio">Portfolio</a></li>
+                            <li><a href="profile.html#pics">Pics</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contacts"><img src="icons\icons8-contact-us-80.png" height="17px"> Contact Us</a>
+                        <ul>
+                            <li onclick="mapLocation()"><a href="#address">Location Map</a></li>
+                            <li onclick="contactNumber()"><a href="#contact-number">Contact Number</a></li>
+                            <li onclick="emailAddress()"><a href="#email">Email Address</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <p id="education"></p>
+    <div class="container">
+        <div class="second-section">
+            <div class="second-section-content">
+                <ol start="1">
+                    <h1>COLLEGE OF EDUCATION</h1>
+                    <div class="history">
+                        <li>
+                            <h2>Bachelor of Secondary Education major in </h2>
+                            <div class="history">
+                                <ul>
+                                    <li><h3>English</h3></li>
+                                    <li><h3>Mathematics</h3></li>
+                                    <li><h3>Filipino</h3></li>
+                                    <li><h3>Biology</h3></li>
+                                    <li><h3>Social Studies</h3></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Elementary Education</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Technical-Vocational Teacher Education</h2>
+                            <p id="business"></p>
+                            <div class="history">
+                                <ul>
+                                    <li><h3>Agricultural Crop Production</h3></li>
+                                    <li><h3>Electrical Technology</h3></li>
+                                    <li><h3>Food and Services Management</h3></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <h2>Bachelor in Physical Education</h2>
+                        </li>
+                    </div>
+                    <h1>COLLEGE OF BUSINESS</h1>
+                    <div class="history">
+                        <li>
+                            <h2>Bachelor of Science in Office Administration</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Business Administration major in</h2>
+                            <div class="history">
+                                <ul>
+                                    <li><h3>Marketing Management</h3></li>
+                                    <li><h3>Financial Management</h3><p id="accountancy"></p></li>
+                                    <li><h3>Human Resource Development Management</h3></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Hotel & Restaurant Management</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Tourism Management</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Associate in Hotel and Restaurant Management</h2>
+                            <p id="arts-and-sciences"></p>
+                        </li>
+                    </div>
+
+                    <h1>COLLEGE OF ACCOUNTANCY</h1>
+                    <div class="history">
+                        <li>
+                            <h2>Bachelor of Science in Accountancy</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Accounting Information Systems</h2>
+                        </li>
+                    </div>
+
+                    <h1>COLLEGE OF ARTS AND SCIENCES</h1>
+                    <div class="history">
+                        <li>
+                            <h2>Bachelor of Science in Psychology</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Criminology</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Social Work</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Arts in Anthropology</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Arts in Theology</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Agricultural Technology</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Fisheries</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Science in Midwifery</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Bachelor of Arts in Communication</h2>
+                        </li>
+                    </div>
+                    <p id="information-technology"></p>
+                    <h1>COLLEGE OF INFORMATION TECHNOLOGY</h1>
+                    <div class="history">
+                        <li>
+                            <h2>Bachelor of Science in Information Technology</h2> <br>
+                        </li>
+                        <li>
+                            <h2>Associate in Computer Technology</h2>
+                        </li>
+                    </div>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="contacts">
+        <div class="take-action">
+            <div class="contacts-box">
+                <div class="contacts">
+                    <p>
+                        Looking for more information or want to know more of
+                        our scholarship offers?
+                        Contact us through email <span id="email"><b>Email Add: 
+                        info@stratford.edu.ph</b></span> or call our number <span id="contact-number"><b>Contact 
+                        No. 09434849171</b>
+                        and telephone number <b>Tel No. 63-83-5541615 or (083) 
+                        554 1615</b></span>
+                    </p>
+                    <p class="address">
+                        Address: <br>
+                        <b>Stratford International School</b>
+                        J. Catholico Sr. Ave., Lagao, General Santos City
+                    </p>
+                </div>
+            </div>
+            <div class="address-box" id="address">
+                <div class="third-section-content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15868.503410828427!2d125.1840903!3d6.1137544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79f95c76509b5%3A0x26bbe323073a1f30!2sStratford%20International%20School!5e0!3m2!1sfil!2sph!4v1683422509718!5m2!1sfil!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright © 2023 Stratford International School</p>
+            <a href="mailto:stratfords@gmail.com"><img src="icons/icons8-gmail-24.png" alt="Gmail" height="20px"></a>
+            <a href="https://web.facebook.com/stratfordian"><img src="icons/icons8-facebook-24.png" alt="Facebook Page" height="20px"></a>
+            <a href="https://www.messenger.com/t/104661922966247"><img src="icons/icons8-facebook-messenger-24.png" alt="Facebook Messenger" height="20px"></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

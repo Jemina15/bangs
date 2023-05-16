@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stratford International School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <div class="box-img">
+                <div class="img">
+                    <a href="index.html"><img src="stratford logo 1.png" alt="Stratford Logo"></a>
+                </div>
+            </div>
+            <div class="box-text">
+                <div class="text-student">
+                    <h1>STRATFORD INTERNATIONAL SCHOOL</h1>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </label>
+        <nav class="navigation-box" id="navigation-box">
+            <ul class="navigation">
+                <li>
+                    <a href="index.html"><img src="icons\icons8-home-50.png" height="17px"> Home</a>
+                </li>
+                <li>
+                    <a href="#about"><img src="icons\icons8-about-50.png" height="17px"> About</a>
+                    <ul>
+                        <li><a href="#history">History School</a></li>
+                        <li><a href="#vision-core-values-mission">Vision & Mission</a></li>
+                        <li onclick="coreValue()"><a href="#vision-core-values-mission">Core Values</a></li>
+                        <li><a href="#hymn">School Hymn</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="itdepartment.html"><img src="icons\icons8-technology-32.png" height="17px"> School Departments</a>
+                    <ul>
+                        <li><a href="itdepartment.html#it-department">Computer Lab.</a></li>
+                        <li><a href="itdepartment.html#students">Students</a></li>
+                        <li><a href="itdepartment.html#building-facilities">Building/Facilities</a></li>
+                        <li><a href="itdepartment.html#uniforms">Uniforms</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="courses.html"><img src="icons\icons8-contact-us-50.png" height="17px"> Courses Offered</a>
+                    <ul>
+                        <li><a href="courses.html#education">College of Education</a></li>
+                        <li><a href="courses.html#business">College of Business</a></li>
+                        <li><a href="courses.html#accountancy">College of Accountancy</a></li>
+                        <li><a href="courses.html#arts-and-sciences">College of Arts and Sciences</a></li>
+                        <li><a href="courses.html#information-technology">College of Information Technology</a></li>
+                    </ul>
+                </li>
+                <li> <!--added target: blank page-->
+                    <a href="registrationform.html" target="_blank"><img src="icons\icons8-registration-50.png" height="17px"> Registration Form</a>
+                </li>
+                <li>
+                    <a href="profile.html"><img src="icons\icons8-user-50.png" height="17px"> Profile</a>
+                    <ul>
+                        <li><a href="profile.html#portfolio">Portfolio</a></li>
+                        <li><a href="profile.html#pics">Pics</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="index.html#contacts"><img src="icons\icons8-contact-us-80.png" height="17px"> Contact Us</a>
+                    <ul>
+                        <li onclick="mapLocation()"><a href="#address">Location Map</a></li>
+                        <li onclick="contactNumber()"><a href="#contact-number">Contact Number</a></li>
+                        <li onclick="emailAddress()"><a href="#email">Email Address</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <p id="about"></p>
+    <div class="container">
+        <div class="first-section">
+            <div class="first-section-content" >
+                <img src="stratford logo.png" alt="logo">
+                <h1>Stratford International School</h1>
+                <h3>Stratford is a private non-sectarian educational institution offering college degree, Tesda courses</h3>
+            </div>
+        </div>
+        <p id="history"></p>
+        <div class="second-section">
+            <div class="second-section-content">
+                <div class="history-img">
+                    <img src="stratford logo.png" alt="History">
+                </div>
+                <div class="history">
+                    <h1>Brief History of the School</h1> <br>
+                    <p>
+                        From the southern gateway of the Philippines in 
+                        General Santos city comes the <b>Stratford International 
+                        School</b>, a private educational institution. The school
+                         was <b>founded in 1999</b> and started its operation in the 
+                        school year 2000-2001. To meet the challenges of a 
+                        <b>fast globalizing world</b>, students here are <b>exposed to 
+                        different cultures</b> ensuring in the process of a 
+                        tolerant mind toward differences and diversities as 
+                        it lies at the centers of the state struggle of people
+                         for survival and identity. In generations and 
+                        centuries theses lands have yielded as stories of
+                        interminable conflicts and agonies.
+                    </p> <br>
+                    <p>
+                        As the school moves toward its <b>vision of creating a 
+                        balanced learning</b> derived from a combination of 
+                        homegrown and foreign knowledge, the <b>teaching of global
+                        cultures</b> has then become a very important component of
+                         holistic education alongside with <b>values</b>, <b>sciences</b>, 
+                        <b>mathematics</b>, <b>arts</b>, and <b>languages</b>.
+                    </p> <br> 
+                    <p>
+                        The school is committed to bring to the community a 
+                        type of educational orientation that is anchored in 
+                        realizing graduates with <b>high academic preparedness</b>; as
+                        <b>defender of the filipino nation</b> and <b>protector of the 
+                        environment</b>. Education in the form of rigid academic 
+                        training will be the cornerstone of <b>Stratford 
+                        International School Education</b>. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p id="vision-core-values-mission"></p>
+        <div class="third-section">
+            <div class="third-section-content">
+                <div class="vision-content">
+                    <h1>Our Vision</h1>
+                    <p>
+                        To establish an excellent academic venue which 
+                        shall transform the individuals to become well-balanced 
+                        and fully developed citizens through reasonable and
+                        legitimate standards of instruction, research, community 
+                        involvement and spiritually related undertakings in the 
+                        pursuit for meaningful and excellent education.
+                    </p>
+                </div>
+                <div class="labels" id="core-values">
+                    <h1>Core Values</h1>
+                    <div class="lists">
+                        <ul>
+                            <li>Integrity</li>
+                            <li>Loyalty</li>
+                            <li>Teamwork</li>
+                            <li>Patriotism</li>
+                            <li>Excellence</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mission-content">
+                    <h1>Our Mission</h1>
+                    <p>
+                        Stratford International School, Inc. is an institution of
+                         learning fully committed to produce physically, mentally,
+                         socially and spiritually developed individuals for the 
+                        up-building of the progressive society and for the
+                        assurance of life that is to come.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="third-section">
+            <div class="first-section">
+                <div class="image-cards" aria-label="quotes">
+                    <div class="slider" data-slider>
+                        <button class="slide-button prev" data-slide-button="prev"><</button>
+                        <ul data-slides="">
+                            <li class="slide" data-active>
+                                <div class="forth-section-content">
+                                    <div class="profile-img-box">
+                                        <img src="images/jemina-villaruel.jpg" alt="Profile" height="100px">
+                                    </div>
+                                    <div class="name">
+                                        <h1>Jemina P. Villaruel</h1>
+                                    </div>
+                                    <p>
+                                        "I am currently a student in Stratford International School taking Bachelor of Science in Information Technology.
+                                        I like to expand my experience and skills within the technology industry.
+                                        And these experiences and skill that I must gain will help me to qualify to my dream job."
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="slide-button next" data-slide-button="next">></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="hymn"></p>
+        <div class="forth-section">
+            <div class="forth-section-content">
+                <h1>Stratford Hymn</h1>
+                <p class="hymn">
+                    All hail thee, mighty Stratford! <br>
+                    Together we shall stand. <br>
+                    We'll show our pride and spirit <br>
+                    To all throughout the land. <br>
+                    With hopes to last forever <br>
+                    As many years go by, <br>
+                    We'll be forever faithful, <br>
+                    All hail thee, stratford high!
+                </p>
+            </div>
+            <div class="hymn-video">
+                <iframe height="250" width="400" src="https://www.youtube.com/embed/P-1RgzWudwQ?controls=1"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="contacts">
+        <div class="take-action">
+            <div class="contacts-box">
+                <div class="contacts">
+                    <p>
+                        Looking for more information or want to know more of
+                         our scholarship offers?
+                        Contact us through email <span id="email"><b>Email Add: 
+                        info@stratford.edu.ph</b></span> or call our number <span id="contact-number"><b>Contact 
+                        No. 09434849171</b>
+                        and telephone number <b>Tel No. 63-83-5541615 or (083) 
+                        554 1615</b></span>
+                    </p>
+                    <p class="address">
+                        Address: <br>
+                        <b>Stratford International School</b>
+                        J. Catholico Sr. Ave., Lagao, General Santos City
+                    </p>
+                </div>  
+            </div>
+            <div class="address-box" id="address">
+                <div class="third-section-content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15868.503410828427!2d125.1840903!3d6.1137544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79f95c76509b5%3A0x26bbe323073a1f30!2sStratford%20International%20School!5e0!3m2!1sfil!2sph!4v1683422509718!5m2!1sfil!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright © 2023 Stratford International School</p>
+            <a href="mailto:stratfords@gmail.com"><img src="icons/icons8-gmail-24.png" alt="Gmail" height="20px"></a>
+            <a href="https://web.facebook.com/stratfordian"><img src="icons/icons8-facebook-24.png" alt="Facebook Page" height="20px"></a>
+            <a href="https://www.messenger.com/t/104661922966247"><img src="icons/icons8-facebook-messenger-24.png" alt="Facebook Messenger" height="20px"></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

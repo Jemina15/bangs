@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Department</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <div class="box-img">
+                <div class="img">
+                    <a href="index.html"><img src="stratford logo 1.png" alt="Stratford Logo"></a>
+                </div>
+            </div>
+            <div class="box-text">
+                <div class="text-student">
+                    <h1>STRATFORD INTERNATIONAL SCHOOL</h1>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </label>
+        <nav class="navigation-box" id="navigation-box">
+            <div class="center-box">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="icons\icons8-home-50.png" height="17px"> Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#about"><img src="icons\icons8-about-50.png" height="17px"> About</a>
+                        <ul>
+                            <li><a href="index.html#history">History School</a></li>
+                            <li><a href="index.html#vision-core-values-mission">Vision & Mission</a></li>
+                            <li onclick="coreValue()"><a href="index.html#vision-core-values-mission">Core Values</a></li>
+                            <li><a href="index.html#hymn">School Hymn</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="itdepartment.html"><img src="icons\icons8-technology-32.png" height="17px"> School Departments</a>
+                        <ul>
+                            <li><a href="#it-department">Computer Lab.</a></li>
+                            <li><a href="#students">Students</a></li>
+                            <li><a href="#building-facilities">Building/Facilities</a></li>
+                            <li><a href="#uniforms">Uniforms</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="courses.html"><img src="icons\icons8-contact-us-50.png" height="17px"> Courses Offered</a>
+                        <ul>
+                            <li><a href="courses.html#education">College of Education</a></li>
+                            <li><a href="courses.html#business">College of Business</a></li>
+                            <li><a href="courses.html#accountancy">College of Accountancy</a></li>
+                            <li><a href="courses.html#arts-and-sciences">College of Arts and Sciences</a></li>
+                            <li><a href="courses.html#information-technology">College of Information Technology</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="registrationform.html" target="_blank"><img src="icons\icons8-registration-50.png" height="17px"> Registration Form</a>
+                    </li>
+                    <li>
+                        <a href="profile.html"><img src="icons\icons8-user-50.png" height="17px"> Profile</a>
+                        <ul>
+                            <li><a href="profile.html#portfolio">Portfolio</a></li>
+                            <li><a href="profile.html#pics">Pics</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contacts"><img src="icons\icons8-contact-us-80.png" height="17px"> Contact Us</a>
+                        <ul>
+                            <li onclick="mapLocation()"><a href="#address">Location Map</a></li>
+                            <li onclick="contactNumber()"><a href="#contact-number">Contact Number</a></li>
+                            <li onclick="emailAddress()"><a href="#email">Email Address</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="department-section">
+            <div class="first-section-content">
+                <h1>School Departments</h1>
+                <p>Services & Facilities</p>
+            </div>
+        </div>
+        <p id="uniforms"></p>
+        <div class="second-section">
+            <div class="school-uniforms">
+                <h1>School Uniforms</h1>
+                <p>1.) All SIS students are required to wear the prescribed uniform with
+                    black shoes while in the school. <br>
+                    2.) Students must wear PE uniform, NSTP shirt, College Shirts or
+                    Department Shirts in substitute of school uniform. <br> <br>
+                    Pregnant students
+                    must follow the proper dress code.
+                </p>
+                <div class="images-cards" aria-label="uniforms">
+                    <div class="slider" data-slider>
+                        <button class="slide-button prev" data-slide-button="prev"><</button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="student/Uniform.jpg" alt="Student Uniform">
+                            </li>
+                            <li class="slide">
+                                <img src="student/carl.png" alt="Carl">
+                            </li>
+                            <li class="slide">
+                                <img src="student/roger.png" alt="Roger">
+                            </li>
+                            <li class="slide">
+                                <img src="student/pe.jpeg" alt="PE">
+                            </li>
+                        </ul>
+                        <button class="slide-button next" data-slide-button="next">></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="students"></p>
+        <div class="forth-section">
+            <div class="stratford-school">
+                <h1>Stratford Students</h1><br>
+                <p>SIS promotes the students' right as prescribed in the Educational Act 1982 Secs.</p> <br>
+                <p>
+                    Essential to the goals of the school is the building of the character of
+                    the students so that they can become good citizens who will bring credit to
+                    themselves and to their Alma Mater within and outside the school.
+                </p>
+                <br> <br>
+                <h2>Students with their Teachers</h2>
+                <div class="images-cards" aria-label="Student & Teachers">
+                    <div class="slider" data-slider>
+                        <button class="slide-button prev" data-slide-button="prev"><</button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="images/cover-photo.jpg" alt="Group Picture">
+                            </li>
+                            <li class="slide">
+                                <img src="student/withmaam01.jpg" alt="Group Picture">
+                            </li>
+                            <li class="slide">
+                                <img src="student/4th-year03.jpeg" alt="4th year students">
+                            </li>
+                        </ul>
+                        <button class="slide-button next" data-slide-button="next">></button>
+                    </div>
+                </div>
+                <br> <br>
+                <h2>4th Year Students</h2>
+                <div class="images-cards" aria-label="4th Year">
+                    <div class="slider" data-slider>
+                        <button class="slide-button prev" data-slide-button="prev"><</button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="student/4th-year01.jpeg" alt="4th year students">
+                            </li>
+                            <li class="slide">
+                                <img src="student/4th-year02.jpeg" alt="4th year students">
+                            </li>
+                        </ul>
+                        <button class="slide-button next" data-slide-button="next">></button>
+                    </div>
+                </div>
+                <br> <br>
+                <h2>3rd Year Students</h2>
+                <br> <br>
+                <div class="images-cards" aria-label="3rd Year">
+                    <div class="slider" data-slider>
+                        <button class="slide-button prev" data-slide-button="prev"><</button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="student/aliana02.jpg" alt="Aliana">
+                            </li>
+                            <li class="slide">
+                                <img src="student/aliana03.jpg" alt="Aliana">
+                            </li>
+                            <li class="slide">
+                                <img src="student/aliana01.jpg" alt="Aliana">
+                            </li>
+                            <li class="slide">
+                                <img src="student/cuerpo01.jpg" alt="Carl">
+                            </li>
+                            <li class="slide">
+                                <img src="student/cuerpo03.jpg" alt="Carl">
+                            </li>
+                            <li class="slide">
+                                <img src="student/jemina01.jpg" alt="Jemina">
+                            </li>
+                            <li class="slide">
+                                <img src="student/jemina02.jpg" alt="Jemina">
+                            </li>
+                            <li class="slide">
+                                <img src="student/jemina03.jpg" alt="Jemina">
+                            </li>
+                            <li class="slide">
+                                <img src="student/noli01.jpg" alt="Noli">
+                            </li>
+                            <li class="slide">
+                                <img src="student/noli02.jpg" alt="Noli">
+                            </li>
+                            <li class="slide">
+                                <img src="student/noli03.jpg" alt="Noli">
+                            </li>
+                            <li class="slide">
+                                <img src="student/peto01.jpg" alt="Peto">
+                            </li>
+                            <li class="slide">
+                                <img src="student/peto02.jpg" alt="Peto">
+                            </li>
+                            <li class="slide">
+                                <img src="student/peto03.jpg" alt="Peto">
+                            </li>
+                            <li class="slide">
+                                <img src="student/rick01.jpg" alt="Rick">
+                            </li>
+                            <li class="slide">
+                                <img src="student/rick02.jpg" alt="Rick">
+                            </li>
+                            <li class="slide">
+                                <img src="student/rick03.jpg" alt="Rick">
+                            </li>
+                            <li class="slide">
+                                <img src="student/roger01.jpg" alt="Roger">
+                            </li>
+                            <li class="slide">
+                                <img src="student/roger02.jpg" alt="Roger">
+                            </li>
+                            <li class="slide">
+                                <img src="student/roger03.jpg" alt="Roger">
+                            </li>
+                        </ul>
+                        <button class="slide-button next" data-slide-button="next">></button>
+                    </div>
+                </div>
+                <br> <br>
+                <h2>2nd Year Students</h2>
+                <div class="images-cards" aria-label="2nd Year">
+                    <div class="slider" data-slider>
+                        <button class="slide-button prev" data-slide-button="prev"><</button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="student/2nd-year01.jpg" alt="2nd year students">
+                            </li>
+                            <li class="slide">
+                                <img src="student/2nd-year02.jpg" alt="2nd year students">
+                            </li>
+                            <li class="slide">
+                                <img src="student/2nd-year04.jpg" alt="2nd year students">
+                            </li>
+                        </ul>
+                        <button class="slide-button next" data-slide-button="next">></button>
+                    </div>
+                </div>
+                <br> <br>
+                <h2>1st Year Students</h2>
+                <div class="images-cards" aria-label="1st Year">
+                    <div class="slider" data-slider>
+                        <button class="slide-button prev" data-slide-button="prev"><</button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="student/1st-year01.jpg" alt="1st year students">
+                            </li>
+                            <li class="slide">
+                                <img src="student/1st-year02.jpg" alt="1st year students">
+                            </li>
+                            <li class="slide">
+                                <img src="student/1st-year03.jpg" alt="1st year students">
+                            </li>
+                        </ul>
+                        <button class="slide-button next" data-slide-button="next">></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third-section">
+            <div class="third-section-content">
+                <div class="third-section-elements">
+                    <p  id="it-department"></p>
+                    <div class="labels">
+                        <h1>IT Department</h1>
+                        <h2>Computer Lab</h2>
+                    </div>
+                    <p id="building-facilities"></p>
+                    <div class="images-cards" aria-label="Building Facilities">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides>
+                                <li class="slide" data-active>
+                                    <img src="images/computer-laboratory01.jpg" alt="Computer laboratory">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/computer-laboratory02.jpg" alt="Computer Laboratory">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/bsit-students.jpg" alt="BSIT students">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                    <div class="labels">
+                        <h1>Building/Facilities</h1>
+                        <h2>New IT Building</h2>
+                    </div>
+                    <div class="images-cards">
+                        <img src="images/new-it-building02.jpg" alt="IT Building">
+                    </div>
+                    <div class="labels">
+                        <h2>Stratford D-Building</h2>
+                    </div>
+                    <div class="images-cards" aria-label="Stratford D-Building">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides>
+                                <li class="slide" data-active>
+                                    <img src="images/stratford-D-building01.jpg" alt="Stratford D-building">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/stratford-D-building02.jpg" alt="Stratford D">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                    <div class="labels">
+                        <h2>Physics Laboratory</h2>
+                    </div>
+                    <div class="images-cards" aria-label="Physics Laboratory">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides>
+                                <li class="slide" data-active>
+                                    <img src="images/physics-laboratory.jpg" alt="Physics laboratory">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/physics-laboratory01.jpg" alt="Physics laboratory">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/physics-laboratory02.jpg" alt="Physics laboratory">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                    <div class="labels">
+                        <h2>Registrar Office</h2>
+                    </div>
+                    <div class="images-cards" aria-label="Registrar Office">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides>
+                                <li class="slide" data-active>
+                                    <img src="images/registrar-office.jpg" alt="Registrar Office">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/registrar-office02.jpg" alt="Registrar Office">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                    <div class="labels">
+                        <h2>Science laboratory</h2>
+                    </div>
+                    <div class="images-cards" aria-label="Science Laboratory">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides>
+                                <li class="slide" data-active>
+                                    <img src="images/science-laboratory01.jpg" alt="Science Laboratory">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/science-laboratory02.jpg" alt="Science Laboratory">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                    <div class="labels">
+                        <h2>Canteen</h2>
+                    </div>
+                    <div class="images-cards" aria-label="Canteen">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides>
+                                <li class="slide" data-active>
+                                    <img src="images/canteen.jpg" alt="Canteen">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/canteen02.jpg" alt="Canteen">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                    <div class="labels">
+                        <h2>Bench</h2>
+                    </div>
+                    <div class="images-cards" aria-label="Bench">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides>
+                                <li class="slide" data-active>
+                                    <img src="images/bench01.jpg" alt="Bench">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/bench03.jpg" alt="Bench">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                    <div class="labels">
+                        <h2>College Library</h2>
+                    </div>
+                    <div class="images-cards" aria-label="Library">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides>
+                                <li class="slide" data-active>
+                                    <img src="images/college-library.jpg" alt="College Library">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/college-table.jpg" alt="College Library">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                    <div class="labels">
+                        <h2>Covered court</h2>
+                    </div>
+                    <div class="images-cards">
+                        <img src="images/covered-court.jpg" alt="Covered Court">
+                    </div>
+                    <div class="labels">
+                        <h2>Covered area</h2>
+                    </div>
+                    <div class="images-cards">
+                        <img src="images/covered-area.jpg" alt="Covered Area">
+                    </div>
+                    <div class="labels">
+                        <h2>Culinary laboratory</h2>
+                    </div>
+                    <div class="images-cards" aria-label="Culinary Laboratory">
+                        <div class="slider" data-slider>
+                            <button class="slide-button prev" data-slide-button="prev"><</button>
+                            <ul data-slides >
+                                <li class="slide" data-active>
+                                    <img src="images/culinary-hrm.jpg" alt="Culinary">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/culinary-laboratory.jpg" alt="Culinary laboratory">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/culinary.jpg" alt="Culinary laboratory">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/culinary02.jpg" alt="Culinary laboratory">
+                                </li>
+                                <li class="slide">
+                                    <img src="images/culinary03.jpg" alt="Culinary laboratory">
+                                </li>
+                            </ul>
+                            <button class="slide-button next" data-slide-button="next">></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="contacts">
+        <div class="take-action">
+            <div class="contacts-box">
+                <div class="contacts">
+                    <p>
+                        Looking for more information or want to know more of
+                        our scholarship offers?
+                        Contact us through email <span id="email"><b>Email Add: 
+                        info@stratford.edu.ph</b></span> or call our number <span id="contact-number"><b>Contact 
+                        No. 09434849171</b>
+                        and telephone number <b>Tel No. 63-83-5541615 or (083) 
+                        554 1615</b></span>
+                    </p>
+                    <p class="address">
+                        Address: <br>
+                        <b>Stratford International School</b>
+                        J. Catholico Sr. Ave., Lagao, General Santos City
+                    </p>
+                </div>
+            </div>
+            <div class="address-box" id="address">
+                <div class="third-section-content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15868.503410828427!2d125.1840903!3d6.1137544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79f95c76509b5%3A0x26bbe323073a1f30!2sStratford%20International%20School!5e0!3m2!1sfil!2sph!4v1683422509718!5m2!1sfil!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright © 2023 Stratford International School</p>
+            <a href="mailto:stratfords@gmail.com"><img src="icons/icons8-gmail-24.png" alt="Gmail" height="20px"></a>
+            <a href="https://web.facebook.com/stratfordian"><img src="icons/icons8-facebook-24.png" alt="Facebook Page" height="20px"></a>
+            <a href="https://www.messenger.com/t/104661922966247"><img src="icons/icons8-facebook-messenger-24.png" alt="Facebook Messenger" height="20px"></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

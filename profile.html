@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <div class="box-img">
+                <div class="img">
+                    <a href="index.html"><img src="stratford logo 1.png" alt="Stratford Logo"></a>
+                </div>
+            </div>
+            <div class="box-text">
+                <div class="text-student">
+                    <h1>STRATFORD INTERNATIONAL SCHOOL</h1>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </label>
+        <nav class="navigation-box" id="navigation-box">
+            <div class="center-box">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="icons\icons8-home-50.png" height="17px"> Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#about"><img src="icons\icons8-about-50.png" height="17px"> About</a>
+                        <ul>
+                            <li><a href="index.html#history">History School</a></li>
+                            <li><a href="index.html#vision-core-values-mission">Vision & Mission</a></li>
+                            <li onclick="coreValue()"><a href="index.html#vision-core-values-mission">Core Values</a></li>
+                            <li><a href="index.html#hymn">School Hymn</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="itdepartment.html"><img src="icons\icons8-technology-32.png" height="17px"> School Departments</a>
+                        <ul>
+                            <li><a href="itdepartment.html#it-department">Computer Lab.</a></li>
+                            <li><a href="itdepartment.html#students">Students</a></li>
+                            <li><a href="itdepartment.html#building-facilities">Building/Facilities</a></li>
+                            <li><a href="itdepartment.html#uniforms">Uniforms</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="courses.html"><img src="icons\icons8-contact-us-50.png" height="17px"> Courses Offered</a>
+                        <ul>
+                            <li><a href="courses.html#education">College of Education</a></li>
+                            <li><a href="courses.html#business">College of Business</a></li>
+                            <li><a href="courses.html#accountancy">College of Accountancy</a></li>
+                            <li><a href="courses.html#arts-and-sciences">College of Arts and Sciences</a></li>
+                            <li><a href="courses.html#information-technology">College of Information Technology</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="registrationform.html" target="_blank"><img src="icons\icons8-registration-50.png" height="17px"> Registration Form</a>
+                    </li>
+                    <li>
+                        <a href="profile.html"><img src="icons\icons8-user-50.png" height="17px"> Profile</a>
+                        <ul>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#pics">Pics</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contacts"><img src="icons\icons8-contact-us-80.png" height="17px"> Contact Us</a>
+                        <ul>
+                            <li onclick="mapLocation()"><a href="#address">Location Map</a></li>
+                            <li onclick="contactNumber()"><a href="#contact-number">Contact Number</a></li>
+                            <li onclick="emailAddress()"><a href="#email">Email Address</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="profile-head">
+            <div class="profile-person">
+                <div class="profile-img-box">
+                    <img src="images/jemina-villaruel.jpg" alt="Profile" height="100px">
+                </div>
+                <div class="name">
+                    <h1>Jemina P. Villaruel</h1>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="choices">
+            </div>
+            <p id="portfolio"></p>
+            <div class="sub-container">
+                <div class="sub-box">
+                    <h1>About me</h1>
+                    <div class="inner-box">
+                        <p>
+                            I am currently a student in Stratford International School taking Bachelor of Science in Information Technology.
+                            I like to expand my experience and skills within the technology industry.
+                            And these experiences and skill that I must gain will help me to qualify to my dream job.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sub-box">
+                    <h1>Biography</h1>
+                    <div class="sub-box">
+                        <h2>BirthDate</h2>
+                        <p><b>December 15, 2001</b></p>
+                        <h2>Age</h2>
+                        <p><b>21 year old</b></p>
+                        <h2>Gender</h2>
+                        <p><b>Female</b></p>
+                        <br>
+                    </div>
+
+                    <h1>Address</h1>
+                    <div class="sub-box">
+                        <p><b>Brgy. Fatima General Santos City</b></p>
+                    </div>
+                </div>
+                <div class="sub-box">
+                    <h1>Contacts</h1>
+                    <div class="sub-box">
+                        <p>
+                            Contact Number: <b>09123456789</b> <br>
+                            Gmail:  <b>jemina.villaruel19@gmail.com</b> <br>
+                            Yahoo mail: <b>villaruel.jemina@yahoo.com</b> <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="sub-box">
+                    <h1>Skills</h1>
+                    <div class="sub-box">
+                        <p>
+                            Programming languages:
+                            <b>Java, Python, and PHP </b><br>
+                        </p>
+                    </div>
+                    <h1>Educational Background</h1>
+                    <div class="sub-box">
+                        <p>
+                            Elementary: <br> <b>Upper Tambler School 2</b> <br>
+                            Junior High School: <br> <b>General Santos City National High School</b> <br>
+                            Senior High School: <br> <b>GenSantos Foundation College Inc.</b> <br>
+                            1st to 2nd year College: <br> <b>STI GenSan</b> <br>
+                            Current School 3rd year: <br> <b>Stratford International School</b>
+                        </p> <br>
+                    </div>
+                    <h1>Work Experience</h1>
+                    <p id="pics"></p>
+                    <div class="sub-box">
+                        <p>
+                            <b>NONE</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="stratford-school">
+                <div class="name">
+                    <h1>PICTURES</h1>
+                </div>
+                <div class="images-cards">
+                    <img src="student/jemina01.jpg" alt="Jemina">
+                    <img src="student/jemina02.jpg" alt="Jemina">
+                    <img src="student/jemina03.jpg" alt="Jemina">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="contacts">
+        <div class="take-action">
+            <div class="contacts-box">
+                <div class="contacts">
+                    <p>
+                        Looking for more information or want to know more of
+                        our scholarship offers?
+                        Contact us through email <span id="email"><b>Email Add: 
+                        info@stratford.edu.ph</b></span> or call our number <span id="contact-number"><b>Contact 
+                        No. 09434849171</b>
+                        and telephone number <b>Tel No. 63-83-5541615 or (083) 
+                        554 1615</b></span>
+                    </p>
+                    <p class="address">
+                        Address: <br>
+                        <b>Stratford International School</b>
+                        J. Catholico Sr. Ave., Lagao, General Santos City
+                    </p>
+                </div>
+            </div>
+            <div class="address-box" id="address">
+                <div class="third-section-content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15868.503410828427!2d125.1840903!3d6.1137544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79f95c76509b5%3A0x26bbe323073a1f30!2sStratford%20International%20School!5e0!3m2!1sfil!2sph!4v1683422509718!5m2!1sfil!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright © 2023 Stratford International School</p>
+            <a href="mailto:stratfords@gmail.com"><img src="icons/icons8-gmail-24.png" alt="Gmail" height="20px"></a>
+            <a href="https://web.facebook.com/stratfordian"><img src="icons/icons8-facebook-24.png" alt="Facebook Page" height="20px"></a>
+            <a href="https://www.messenger.com/t/104661922966247"><img src="icons/icons8-facebook-messenger-24.png" alt="Facebook Messenger" height="20px"></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
